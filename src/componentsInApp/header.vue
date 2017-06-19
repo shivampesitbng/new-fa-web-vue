@@ -10,10 +10,10 @@
 	<div id="mySidenav" class="sidenav" style="text-align:center;background:#fff;">
 	  
 
-		<router-link to="/">Home</router-link>
-		<router-link to="/about">About Us</router-link>
-		<router-link to="/partners">Our Partners</router-link>
-		<router-link to="/contact">Contact Us</router-link>
+		<router-link to="/" v-on:click="closeNav">Home</router-link>
+		<router-link to="/about" v-on:click="closeNav">About Us</router-link>
+		<router-link to="/partners" v-on:click="closeNav">Our Partners</router-link>
+		<router-link to="/contact" v-on:click="closeNav">Contact Us</router-link>
 		<a href="javascript:void(0)" class="" v-on:click="closeNav">&times;</a>
 	
 	</div>
